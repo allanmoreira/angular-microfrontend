@@ -2,3 +2,9 @@
 .idea/
 vendas/node_modules
 vendas/.vscode
+
+produtos/node_modules
+produtos/.vscode
+
+grafico/node_modules
+grafico/.vscode
