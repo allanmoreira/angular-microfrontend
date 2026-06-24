@@ -1,0 +1,4 @@
+*.iml
+.idea/
+vendas/node_modules
+vendas/.vscode
