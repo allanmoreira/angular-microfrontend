@@ -70,7 +70,12 @@
               "extraWebpackConfig": "webpack.prod.config.js"
             },
             "development": {
-              "buildTarget": "produtos:build:development"
+              "buildTarget": "produtos:build:development",
+              "extraWebpackConfig": "webpack.config.cors.js"
+            },
+            "cors": {
+              "buildTarget": "produtos:build:development",
+              "extraWebpackConfig": "webpack.config.cors.js"
             }
           },
           "defaultConfiguration": "development",

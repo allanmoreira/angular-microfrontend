@@ -1,0 +1,21 @@
+{
+  "/remoteEntry.js": {
+    "target": "http://localhost:4201",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/remoteEntry.js": "/remoteEntry.js"
+    }
+  },
+  "/remoteEntry.js": {
+    "target": "http://localhost:4202",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/remoteEntry.js": "/remoteEntry.js"
+    }
+  }
+}
+

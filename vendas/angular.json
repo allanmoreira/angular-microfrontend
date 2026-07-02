@@ -71,6 +71,10 @@
             },
             "development": {
               "buildTarget": "vendas:build:development"
+            },
+            "cors": {
+              "buildTarget": "vendas:build:development",
+              "extraWebpackConfig": "webpack.config.cors.js"
             }
           },
           "defaultConfiguration": "development",
